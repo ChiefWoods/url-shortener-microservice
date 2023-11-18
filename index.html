@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener Microservice</title>
+  <link rel="stylesheet" href="https://chiefwoods.github.io/footer-template/template.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>URL Shortener Microservice</h1>
+    <hr>
+    <form action="api/shorturl" method="POST">
+      <label for="url-input">URL:</label>
+      <input type="text" id="url-input" name="url" placeholder="https://www.freecodecamp.org/">
+      <button type="submit">SHORTEN</button>
+    </form>
+    <div>
+      <h2>Example Usage:</h2>
+      <a href="api/shorturl/0">[base url]/api/shorturl/0</a>
+    </div>
+    <div>
+      <h2>Will Redirect To:</h2>
+      <span>https://forum.freecodecamp.org/</span>
+    </div>
+  </main>
+  <footer>
+    <span class="made-by">Copyright @
+      <script>document.write(new Date().getFullYear())</script> ChiefWoods
+    </span>
+    <a class="github-link" href="https://github.com/ChiefWoods/url-shortener-microservice" target="_blank">
+      <img src="./icons/github.svg" class="github-icon" alt="GitHub">
+    </a>
+  </footer>
+</body>
+
+</html>
