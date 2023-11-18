@@ -1,0 +1,15 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "URL shortener microservice for Back End Development and APIs",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "ChiefWoods",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
