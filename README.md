@@ -4,7 +4,7 @@
 
 URL shortener microservice for Back End Development and APIs in [freeCodeCamp](https://www.freecodecamp.org/learn/).
 
-[Live Website](https://url-shortener-microservice.chiefwoods.repl.co/)
+[Live Website](https://url-shortener-microservice-chiefwoods.replit.app/)
 
 [Source Repository](https://github.com/ChiefWoods/url-shortener-microservice)
 
@@ -49,6 +49,10 @@ git clone https://github.com/ChiefWoods/url-shortener-microservice.git
 2. Install all dependencies
 ```
 npm install
+```
+3. Start development server
+```
+npm run start
 ```
 
 ## Issues
